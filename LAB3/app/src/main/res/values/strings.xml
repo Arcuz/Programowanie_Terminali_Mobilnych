@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LAB3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_task_details">Enter task details</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="low">LOW</string>
+    <string name="normal">NORMAL</string>
+    <string name="high">HIGH</string>
+    <string name="task_importance">Task Importance</string>
+    <string name="default_task_title">TO DO task</string>
+    <string name="no_desc_msg">No description</string>
+    <string name="delete_msg">Delete this entry?</string>
+</resources>

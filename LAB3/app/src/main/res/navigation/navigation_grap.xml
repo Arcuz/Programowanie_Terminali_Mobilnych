@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_grap"
+    app:startDestination="@id/taskFragment">
+
+    <fragment
+        android:id="@+id/taskFragment"
+        android:name="com.example.lab3.TaskFragment"
+        android:label="fragment_item_list"
+        tools:layout="@layout/fragment_item_list" >
+        <action
+            android:id="@+id/action_taskFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+        <action
+            android:id="@+id/action_taskFragment_to_displayTaskFragment"
+            app:destination="@id/displayTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.example.lab3.AddTaskFragment"
+        android:label="fragment_add_task"
+        tools:layout="@layout/fragment_add_task" >
+        <argument
+            android:name="taskToEdit"
+            app:argType="com.example.lab3.data.Tasks$TaskItem"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="edit"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayTaskFragment"
+        android:name="com.example.lab3.DisplayTaskFragment"
+        android:label="fragment_display_task"
+        tools:layout="@layout/fragment_display_task" >
+        <argument
+            android:name="task"
+            app:argType="com.example.lab3.data.Tasks$TaskItem" />
+        <action
+            android:id="@+id/action_displayTaskFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+    </fragment>
+</navigation>
