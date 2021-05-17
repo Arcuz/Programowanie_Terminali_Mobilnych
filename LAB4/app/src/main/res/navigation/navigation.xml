@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/sensorListFragment">
+
+    <fragment
+        android:id="@+id/sensorListFragment"
+        android:name="com.example.lab4.SensorListFragment"
+        android:label="SensorListFragment" >
+        <action
+            android:id="@+id/action_sensorListFragment_to_sensorInfor"
+            app:destination="@id/sensorInfor"
+            app:enterAnim="@anim/slide_down"
+            app:exitAnim="@anim/slide_up"
+            app:popEnterAnim="@anim/slide_down"
+            app:popExitAnim="@anim/slide_up" />
+    </fragment>
+    <fragment
+        android:id="@+id/sensorInfor"
+        android:name="com.example.lab4.SensorInfor"
+        android:label="fragment_sensor_infor"
+        tools:layout="@layout/fragment_sensor_infor" >
+        <argument
+            android:name="Type"
+            app:argType="integer" />
+    </fragment>
+</navigation>

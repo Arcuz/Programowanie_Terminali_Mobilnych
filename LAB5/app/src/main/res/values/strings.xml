@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LAB5</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="my_location_msg">My current location</string>
+    <string name="permission_msg">Permission is required to use this application</string>
+    <string name="retry_msg">Retry?</string>
+    <string name="last_location_msg">Last known location</string>
+    <string name="marker_info_format">Position: (%.2f, %.2f) Distance: %.2f</string>
+    <string name="distance_info_format">Total distance: %.2f [km]</string>
+    <string name="map_clear">Map Cleared</string>
+</resources>

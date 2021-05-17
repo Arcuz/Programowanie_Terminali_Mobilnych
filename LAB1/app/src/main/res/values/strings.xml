@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LAB1</string>
+    <string name="button">Button</string>
+    <string name="CHAR">CHAR</string>
+    <string name="HelloWorld">Hello World!</string>
+    <string name="Toast_msg">Button Clicked!</string>
+    <string name="rolled_msg">Rolled</string>
+    <string name="diceImg2">diceImg2</string>
+</resources>

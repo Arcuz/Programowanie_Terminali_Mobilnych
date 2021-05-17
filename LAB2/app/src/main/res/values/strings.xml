@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LAB2</string>
+    <string name="resultTextNumber">TextView</string>
+    <string name="operatorSymbol">TextView</string>
+    <string name="first_number">First Number</string>
+    <string name="second_number">Second Number</string>
+    <string name="calc_Button">CALCULATE</string>
+    <string name="result">Result:</string>
+    <string name="clear_msg">clear</string>
+    <string name="apply">APPLY</string>
+    <string name="intiger">Intiger</string>
+    <string name="number_format">Number Format:</string>
+    <string name="numberformatkey">number format</string>
+    <string name="floattxt">Float</string>
+</resources>

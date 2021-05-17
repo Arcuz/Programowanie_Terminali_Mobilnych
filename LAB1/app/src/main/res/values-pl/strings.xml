@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LAB1</string>
+    <string name="button">przycisk</string>
+    <string name="CHAR">CHAR</string>
+    <string name="HelloWorld">Witaj świecie!</string>
+    <string name="Toast_msg">Przycisk wciśnięty!</string>
+    <string name="rolled_msg">Wylosowano</string>
+</resources>
